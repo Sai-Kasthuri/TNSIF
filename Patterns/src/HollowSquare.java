@@ -21,8 +21,8 @@ public class HollowSquare {
 }
 /*
 	* * * * *
-	* 		*
-	*		*
-	*		*
+	* 	*
+	*	*
+	*	*
 	* * * * *
 */

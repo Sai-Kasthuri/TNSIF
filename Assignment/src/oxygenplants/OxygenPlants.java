@@ -27,15 +27,7 @@ public class OxygenPlants {
 		{
 			totalPlants=((length*breadth)/plantArea)*100*100;
 			int ones=(int)totalPlants%10;
-			if(ones>5)
-			{
-				int difference=10-ones;
-				totalPlants+=difference;
-			}
-			else
-			{
-				totalPlants-=ones;
-			}
+			totalPlants-=ones;
 			oxygenProduction=totalPlants*0.9;
 		}
 		System.out.println("Total number of plants is "+(int)totalPlants);

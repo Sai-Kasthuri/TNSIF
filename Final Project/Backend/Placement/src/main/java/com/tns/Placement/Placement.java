@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Placement {
-
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Id
 	private Long id;
 	private String name;
